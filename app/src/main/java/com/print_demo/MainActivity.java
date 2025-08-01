@@ -33,18 +33,18 @@ public class MainActivity extends AppCompatActivity {
 //        int ret = 0;
 //        Bitmap bitmap = null;
 //
-////        print.initPage(200);
-////        bitmap = print.encodeToBitmap("12ASDFSS34", print.QR_CODE, 150, 150);
-////        print.drawImage(bitmap, 0, 0);
-////        print.printPage();
-////
-////        ret = print.roll(10);
-////        Log.d(TAG, String.format("Roll ret = %d", ret));
-////
-////        ret = print.status();
-////        Log.d(TAG, String.format("status ret = %d", ret));
-////
-////        print.setHeatLevel(2);
+//        print.initPage(200);
+//        bitmap = print.encodeToBitmap("12ASDFSS34", print.QR_CODE, 150, 150);
+//        print.drawImage(bitmap, 0, 0);
+//        print.printPage();
+//
+//        ret = print.roll(10);
+//        Log.d(TAG, String.format("Roll ret = %d", ret));
+//
+//        ret = print.status();
+//        Log.d(TAG, String.format("status ret = %d", ret));
+//
+//        print.setHeatLevel(2);
 //
 //        print.initPage(100);
 //

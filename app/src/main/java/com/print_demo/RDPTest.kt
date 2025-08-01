@@ -51,6 +51,7 @@ public class RDPTest {
      *     - `isUnderline`: Boolean, true if the text should be underlined.
      *     - `isReverse`: Boolean, true if the text should be printed in reverse (white on black).
      * - `print.drawImage(bitmap: Bitmap, x: Int, y: Int)`: Draws a bitmap image on the current page. (Commented out in the original example)
+     * - `print.roll(lines: Int)`: Feeds the paper by the specified number of lines. Used here to add space after printing.
      * - `print.printPage()`: Sends the current page data to the printer.
      *
      * How to print text:
@@ -104,5 +105,9 @@ public class RDPTest {
 
         // Send the composed page to the printer.
         print.printPage()
+
+        // Feed the paper after printing to add some space for tearing.
+        // The number of lines (e.g., 5) can be adjusted as needed.
+        print.roll(5) // Feeds the paper by 5 lines
     }
 }
